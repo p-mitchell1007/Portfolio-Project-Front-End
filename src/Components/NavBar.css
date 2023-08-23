@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    padding: 5px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.navItems{
+    display: flex;
+    
+}
+.item{
+    margin-right: 10px;
+    font-size: large;
+}
+
+.navButton{
+    border: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    outline: none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px green;
+}
+
+.link:hover{
+    background-color: forestgreen;
+}
+.link:active{
+    background-color: forestgreen;
+    box-shadow: 0 5px silver;
+    color: black;
+}
